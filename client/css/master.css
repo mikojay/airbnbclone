@@ -11,6 +11,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding-right: 15px;
 
 
 }
@@ -22,14 +23,16 @@ header {
 
 .logo
 {
-	background: url('../img_airbnb/airbnb.png');
+	background-image: url('../img_airbnb/airbnb.png');
 	border: solid 1px;
 	height: 50px;
 	width: 50px;
+	margin-left: 20px;
+	margin-right: 10px;
 	background-size: cover;
 }
 
-.left_side input
+.search input
 {
 	font-size: 20px;
 	height: 40px;
