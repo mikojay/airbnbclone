@@ -1,0 +1,53 @@
+body {
+	margin: 0;
+	padding: 0;
+	backround: #fafafa;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	height: 80px;
+	border: solid 1px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+
+}
+.left_side
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo
+{
+	background: url('../img_airbnb/airbnb.png');
+	border: solid 1px;
+	height: 50px;
+	width: 50px;
+	background-size: cover;
+}
+
+.left_side input
+{
+	font-size: 20px;
+	height: 40px;
+	box-sizing: border-box;
+	padding: 2px;
+	width: 350px;
+	box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.4);
+}
+
+.right_side
+{
+	width: 400px;
+}
+
+.right_side nav ul
+{
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+
+}
