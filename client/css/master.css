@@ -126,3 +126,39 @@ body {
 	background: rgba(128, 128, 128, .1);
 	cursor: pointer;
 }
+.properties
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-column-gap: 15px;
+	grid-row-gap: 1px;
+}
+
+.prop_box
+{
+	display: flex;
+	height: 207px;
+	width: 290px;
+	border-radius: 5px;
+	position: relative;
+
+}
+
+.prop_img
+{
+	background: red;
+	height: 207px;
+	width: 290px;
+	border-radius: 5px;
+	background-size: auto 90% ;
+	background-repeat: no-repeat;
+	background-position: center 15px;
+}
+
+.prop_cont
+{
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	position: absolute;
+}
